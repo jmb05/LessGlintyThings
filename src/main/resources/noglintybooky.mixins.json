@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.jmb19905.noglintybooky.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "WrittenBookMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

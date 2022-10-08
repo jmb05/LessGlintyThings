@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "noglintybooky",
+  "version": "${version}",
+  "name": "NoGlintyBooky",
+  "description": "Removed Enchantment Glint from Written Books",
+  "authors": [
+    "jmb19905"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/noglintybooky/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.jmb19905.noglintybooky.NoGlintyBooky"
+    ]
+  },
+  "mixins": [
+    "noglintybooky.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
