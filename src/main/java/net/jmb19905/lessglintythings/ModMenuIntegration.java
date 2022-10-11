@@ -1,4 +1,4 @@
-package net.jmb19905.noglintybooky;
+package net.jmb19905.lessglintythings;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

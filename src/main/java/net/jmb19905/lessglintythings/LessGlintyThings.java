@@ -1,12 +1,12 @@
-package net.jmb19905.noglintybooky;
+package net.jmb19905.lessglintythings;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 
-public class NoGlintyBooky implements ClientModInitializer {
+public class LessGlintyThings implements ClientModInitializer {
 
-    public static final String MOD_ID = "noglintybooky";
+    public static final String MOD_ID = "lessglintythings";
 
     public static ModConfig config = null;
 

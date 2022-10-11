@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "noglintybooky",
+  "id": "lessglintythings",
   "version": "${version}",
-  "name": "NoGlintyBooky",
-  "description": "Removed Enchantment Glint from Written Books",
+  "name": "LessGlintyThings",
+  "description": "Removed Enchantment Glint from Written Books and other items",
   "authors": [
     "jmb19905"
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/noglintybooky/logo.png",
+  "icon": "assets/lessglintythings/logo.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.jmb19905.noglintybooky.NoGlintyBooky"
+      "net.jmb19905.lessglintythings.LessGlintyThings"
     ],
     "modmenu": [
-      "net.jmb19905.noglintybooky.ModMenuIntegration"
+      "net.jmb19905.lessglintythings.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "noglintybooky.mixins.json"
+    "lessglintythings.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.9",
