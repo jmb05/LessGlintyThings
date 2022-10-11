@@ -6,7 +6,8 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
 @Config(name = NoGlintyBooky.MOD_ID)
 public class ModConfig implements ConfigData {
-    @ConfigEntry.Gui.PrefixText
     @ConfigEntry.Gui.Tooltip
     public boolean removeBookGlint = true;
+    @ConfigEntry.Gui.Tooltip
+    public boolean removePotionGlint = false;
 }
