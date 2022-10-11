@@ -1,15 +1,18 @@
 package net.jmb19905.noglintybooky;
 
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class NoGlintyBooky implements ClientModInitializer {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger("noglintybooky");
+    public static final String MOD_ID = "noglintybooky";
+
+    public static ModConfig config = null;
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("NoGlintyBooky");
+        AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
+        config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
     }
 }

@@ -14,6 +14,9 @@
   "entrypoints": {
     "client": [
       "net.jmb19905.noglintybooky.NoGlintyBooky"
+    ],
+    "modmenu": [
+      "net.jmb19905.noglintybooky.ModMenuIntegration"
     ]
   },
   "mixins": [
