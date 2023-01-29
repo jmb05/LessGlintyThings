@@ -4,10 +4,13 @@
   "package": "net.jmb19905.lessglintythings.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "PotionItemMixin",
     "WrittenBookMixin",
-    "PotionItemMixin"
+    "EnchantedBookMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+  ]
 }

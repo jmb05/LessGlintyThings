@@ -1,5 +1,6 @@
 {
   "text.autoconfig.lessglintythings.title": "LessGlintyThings Config",
   "text.autoconfig.lessglintythings.option.removeBookGlint": "Remove Written Book glint",
+  "text.autoconfig.lessglintythings.option.removeEnchantedBookGlint": "Remove Enchanted Book glint",
   "text.autoconfig.lessglintythings.option.removePotionGlint": "Remove Potion glint"
 }
