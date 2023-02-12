@@ -7,5 +7,15 @@ import me.shedaniel.autoconfig.annotation.Config;
 public class ModConfig implements ConfigData {
     public boolean removeBookGlint = true;
     public boolean removeEnchantedBookGlint = false;
+    public boolean removeEnchantedGoldenAppleGlint = false;
+
+    public boolean removeEndCrystalGlint = false;
+
+    public boolean removeExperienceBottleGlint = false;
+
+    public boolean removeNetherStarGlint = false;
     public boolean removePotionGlint = false;
+    public boolean removeArmorGlint = false;
+    public boolean removeToolGlint = false;
+    public boolean removeLodestoneCompassGlint = false;
 }

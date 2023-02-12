@@ -4,9 +4,15 @@
   "package": "net.jmb19905.lessglintythings.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "EnchantedBookMixin",
     "PotionItemMixin",
     "WrittenBookMixin",
-    "EnchantedBookMixin"
+    "EnchantedGoldenAppleMixin",
+    "EndCrystalMixin",
+    "ExperienceBottleMixin",
+    "NetherStarMixin",
+    "ArmorAndToolsMixin",
+    "CompassMixin"
   ],
   "injectors": {
     "defaultRequire": 1

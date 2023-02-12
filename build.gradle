@@ -72,8 +72,7 @@ modrinth {
     uploadFile = remapJar
     gameVersions = ["1.19","1.19.1","1.19.2","1.19.3"]
     loaders = ["fabric"]
-    changelog = """- for Minecraft 1.19.3
-                - you can now choose to disable enchanted book glint"""
+    changelog = """- added options for Armor, Tools, Enchanted Golden Apples, End Crystals, Nether Stars, Bottles o' Enchanting and Lodestone Compasses"""
     dependencies {
         required.project "cloth-config"
         optional.project "modmenu"

@@ -23,7 +23,7 @@
     "lessglintythings.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.13",
+    "fabricloader": ">=0.14.14",
     "cloth-config": ">=8.2.88",
     "minecraft": ["1.19","1.19.1","1.19.2","1.19.3"]
   },
