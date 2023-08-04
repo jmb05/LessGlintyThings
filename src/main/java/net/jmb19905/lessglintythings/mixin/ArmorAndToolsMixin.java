@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class ArmorAndToolsMixin {
     @Inject(method = "hasGlint", at = @At("HEAD"), cancellable = true)
     private void hasGlint(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
-        if (stack.getItem() instanceof Wearable && LessGlintyThings.config.removeArmorGlint) {
+        if (stack.getItem() instanceof Equipment && LessGlintyThings.config.removeArmorGlint) {
             cir.setReturnValue(false);
         } else if (stack.getItem() instanceof ToolItem && LessGlintyThings.config.removeToolGlint) {
             cir.setReturnValue(false);

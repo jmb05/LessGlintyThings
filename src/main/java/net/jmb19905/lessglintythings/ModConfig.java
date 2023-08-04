@@ -14,7 +14,6 @@ public class ModConfig implements ConfigData {
     public boolean removeExperienceBottleGlint = false;
 
     public boolean removeNetherStarGlint = false;
-    public boolean removePotionGlint = false;
     public boolean removeArmorGlint = false;
     public boolean removeToolGlint = false;
     public boolean removeLodestoneCompassGlint = false;

@@ -2,7 +2,6 @@
   "text.autoconfig.lessglintythings.title": "LessGlintyThings Config",
   "text.autoconfig.lessglintythings.option.removeBookGlint": "Remove Written Book glint",
   "text.autoconfig.lessglintythings.option.removeEnchantedBookGlint": "Remove Enchanted Book glint",
-  "text.autoconfig.lessglintythings.option.removePotionGlint": "Remove Potion glint",
   "text.autoconfig.lessglintythings.option.removeEndCrystalGlint": "Remove End Crystal glint",
   "text.autoconfig.lessglintythings.option.removeEnchantedGoldenAppleGlint": "Remove Enchanted Golden Apple glint",
   "text.autoconfig.lessglintythings.option.removeExperienceBottleGlint": "Remove Bottle o' Enchanting glint",
