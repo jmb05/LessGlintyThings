@@ -72,7 +72,7 @@ modrinth {
     uploadFile = remapJar
     gameVersions = ["1.20", "1.20.1"]
     loaders = ["fabric"]
-    changelog = """- Update to 1.20(.1)"""
+    changelog = """- Downgrade required fabricloader version to 0.14.21 to ensure compatability with quilt"""
     dependencies {
         required.project "cloth-config"
         optional.project "modmenu"
